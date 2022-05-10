@@ -6,12 +6,12 @@ const mongoose = require('mongoose');
 const taskSchema = mongoose.Schema({
    name: {
       type: String,
-      required: [true, 'Must provide task title'],
+      required: [true, 'Must provide task name'],
       trim: true,
    },
    details: {
       type: String,
-      required: [true, 'Must provide task description'],
+      required: [true, 'Must provide task details'],
       trim: true,
    },
    state: {
@@ -21,4 +21,4 @@ const taskSchema = mongoose.Schema({
    },
 })
 
-module.exports = mongoose.model('Tasks', taskSchema)
+module.exports = mongoose.model('tasks', taskSchema)
