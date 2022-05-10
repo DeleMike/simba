@@ -1,0 +1,19 @@
+{
+  "name": "simba_api",
+  "version": "0.0.1",
+  "description": "A task management API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeleMike/simba.git"
+  },
+  "author": "Akindele Michael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeleMike/simba/issues"
+  },
+  "homepage": "https://github.com/DeleMike/simba#readme"
+}
